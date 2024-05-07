@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    background-color: greenyellow;
+}
+
+.label-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.label-box .btn {
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    width: 100px;
+    aspect-ratio: 1/1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.label-box .btn i {
+    font-size: 62px;
+}
+
+.menu {
+    width: 300px;
+    height: 100vh;
+    background-color: #000;
+    color: #fff;
+    padding: 50px 30px;
+}
+
+.menu h1 {
+    margin-bottom: 20px;
+}
+
+.menu a {
+    color: #fff;
+    font-size: 32px;
+}
+
+.menu ul {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.main ul li {
+    list-style: none;
+}
